@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(252, 200, 165);
+    color: rgb(80, 79, 79);
+    margin: 10px;
+    padding:20px;
+    font-family:Vazirmatn FD NL;
+}
+h1{
+    color: rgb(246, 85, 31);
+    border: 3px solid rgb(253, 135, 76);
+    padding: 10px;
+    text-align: center;
+}
+section.firstDiv img{
+    float: left;
+    width: 33%;
+    width: 250px;
+}
+#firstDiv{
+    border: 3px solid rgb(253, 135, 76);
+    padding: 20px;
+    margin: 10px;
+}
+section::after {
+    content: "";
+    display: table; 
+    clear: both;
+  }
